@@ -11,6 +11,7 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
+
 # From here the AI suggested to include these additional files to ignore, 
 # which are commonly ignored in Python projects, 
 # especially those involving Jupyter notebooks and PyTorch development.
@@ -30,3 +31,12 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Model artifacts
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+models/
