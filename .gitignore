@@ -1,0 +1,32 @@
+# Data files
+data/
+*.parquet
+*.csv
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# From here the AI suggested to include these additional files to ignore, 
+# which are commonly ignored in Python projects, 
+# especially those involving Jupyter notebooks and PyTorch development.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
